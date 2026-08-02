@@ -4,38 +4,39 @@ Hidden layers: [8, 4]
 Learning rate: 0.1
 Momentum: 0.9
 Epochs: 500
-Epoch     1 | Training MSE = 0.08588619
-Epoch   500 | Training MSE = 0.00112349
-Fold  1 | RMSE = 15.8076 | MAE = 11.1750
-Epoch     1 | Training MSE = 0.08805927
-Epoch   500 | Training MSE = 0.00130189
-Fold  2 | RMSE = 7.6696 | MAE = 6.0038
-Epoch     1 | Training MSE = 0.08982941
-Epoch   500 | Training MSE = 0.00123589
-Fold  3 | RMSE = 9.5147 | MAE = 7.4296
-Epoch     1 | Training MSE = 0.08866862
-Epoch   500 | Training MSE = 0.00124367
-Fold  4 | RMSE = 7.0471 | MAE = 5.3572
-Epoch     1 | Training MSE = 0.09005704
-Epoch   500 | Training MSE = 0.00101686
-Fold  5 | RMSE = 17.6955 | MAE = 14.1194
-Epoch     1 | Training MSE = 0.09021502
-Epoch   500 | Training MSE = 0.00115998
-Fold  6 | RMSE = 9.5963 | MAE = 7.2177
-Epoch     1 | Training MSE = 0.08473015
-Epoch   500 | Training MSE = 0.00122400
-Fold  7 | RMSE = 11.1316 | MAE = 8.8118
-Epoch     1 | Training MSE = 0.09245347
-Epoch   500 | Training MSE = 0.00131434
-Fold  8 | RMSE = 6.7422 | MAE = 5.4884
-Epoch     1 | Training MSE = 0.08651495
-Epoch   500 | Training MSE = 0.00122565
-Fold  9 | RMSE = 9.3006 | MAE = 6.9134
-Epoch     1 | Training MSE = 0.08474000
-Epoch   500 | Training MSE = 0.00108310
-Fold 10 | RMSE = 15.7054 | MAE = 10.2441
+Weight seed: 1
+Epoch     1 | Training MSE = 0.08839696
+Epoch   500 | Training MSE = 0.00102407
+Fold  1 | RMSE = 16.8703 | MAE = 12.2487
+Epoch     1 | Training MSE = 0.09410705
+Epoch   500 | Training MSE = 0.00108984
+Fold  2 | RMSE = 14.4064 | MAE = 10.3402
+Epoch     1 | Training MSE = 0.09537091
+Epoch   500 | Training MSE = 0.00115088
+Fold  3 | RMSE = 12.0366 | MAE = 7.4658
+Epoch     1 | Training MSE = 0.09297663
+Epoch   500 | Training MSE = 0.00115988
+Fold  4 | RMSE = 12.6056 | MAE = 8.4495
+Epoch     1 | Training MSE = 0.08973652
+Epoch   500 | Training MSE = 0.00130229
+Fold  5 | RMSE = 7.7556 | MAE = 6.0297
+Epoch     1 | Training MSE = 0.09027850
+Epoch   500 | Training MSE = 0.00122897
+Fold  6 | RMSE = 13.4520 | MAE = 11.7638
+Epoch     1 | Training MSE = 0.09121565
+Epoch   500 | Training MSE = 0.00128907
+Fold  7 | RMSE = 10.9272 | MAE = 9.0993
+Epoch     1 | Training MSE = 0.08561936
+Epoch   500 | Training MSE = 0.00124289
+Fold  8 | RMSE = 6.7120 | MAE = 5.2935
+Epoch     1 | Training MSE = 0.09548979
+Epoch   500 | Training MSE = 0.00110671
+Fold  9 | RMSE = 11.3953 | MAE = 8.6837
+Epoch     1 | Training MSE = 0.08683153
+Epoch   500 | Training MSE = 0.00123762
+Fold 10 | RMSE = 8.7625 | MAE = 7.0848
 
 สรุปผล
-Average MSE : 135.6647
-Average RMSE: 11.0211
-Average MAE : 8.276
+Average MSE : 140.8126
+Average RMSE: 11.4923
+Average MAE : 8.6459
