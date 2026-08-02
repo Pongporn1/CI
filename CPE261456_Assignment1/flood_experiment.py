@@ -4,10 +4,10 @@ from mlp import MLP, SimpleRandom
 # ค่าที่ใช้ในการทดลอง
 FILE_NAME = "flood.txt"
 HIDDEN_LAYERS = [8, 4]
-LEARNING_RATE = 0.10
+LEARNING_RATE = 0.1
 MOMENTUM = 0.9
 MAX_EPOCHS = 500
-WEIGHT_SEED = 42
+WEIGHT_SEED = 100
 FOLD_SEED = 100
 NUMBER_OF_FOLDS = 10
 
@@ -130,6 +130,7 @@ def main():
     print("Learning rate:", LEARNING_RATE)
     print("Momentum:", MOMENTUM)
     print("Epochs:", MAX_EPOCHS)
+    print("Weight seed:", WEIGHT_SEED)
 
     for test_fold in range(NUMBER_OF_FOLDS):
         test_data = folds[test_fold]
@@ -198,6 +199,7 @@ def main():
     print("Average MSE :", round(average(all_mse), 4))
     print("Average RMSE:", round(average(all_rmse), 4))
     print("Average MAE :", round(average(all_mae), 4))
+    
 
 
 if __name__ == "__main__":
