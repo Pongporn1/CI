@@ -1,0 +1,41 @@
+Flood 10-Fold Cross-Validation
+จำนวนข้อมูล: 314
+Hidden layers: [8, 4]
+Learning rate: 0.1
+Momentum: 0.9
+Epochs: 500
+Epoch     1 | Training MSE = 0.08588619
+Epoch   500 | Training MSE = 0.00112349
+Fold  1 | RMSE = 15.8076 | MAE = 11.1750
+Epoch     1 | Training MSE = 0.08805927
+Epoch   500 | Training MSE = 0.00130189
+Fold  2 | RMSE = 7.6696 | MAE = 6.0038
+Epoch     1 | Training MSE = 0.08982941
+Epoch   500 | Training MSE = 0.00123589
+Fold  3 | RMSE = 9.5147 | MAE = 7.4296
+Epoch     1 | Training MSE = 0.08866862
+Epoch   500 | Training MSE = 0.00124367
+Fold  4 | RMSE = 7.0471 | MAE = 5.3572
+Epoch     1 | Training MSE = 0.09005704
+Epoch   500 | Training MSE = 0.00101686
+Fold  5 | RMSE = 17.6955 | MAE = 14.1194
+Epoch     1 | Training MSE = 0.09021502
+Epoch   500 | Training MSE = 0.00115998
+Fold  6 | RMSE = 9.5963 | MAE = 7.2177
+Epoch     1 | Training MSE = 0.08473015
+Epoch   500 | Training MSE = 0.00122400
+Fold  7 | RMSE = 11.1316 | MAE = 8.8118
+Epoch     1 | Training MSE = 0.09245347
+Epoch   500 | Training MSE = 0.00131434
+Fold  8 | RMSE = 6.7422 | MAE = 5.4884
+Epoch     1 | Training MSE = 0.08651495
+Epoch   500 | Training MSE = 0.00122565
+Fold  9 | RMSE = 9.3006 | MAE = 6.9134
+Epoch     1 | Training MSE = 0.08474000
+Epoch   500 | Training MSE = 0.00108310
+Fold 10 | RMSE = 15.7054 | MAE = 10.2441
+
+สรุปผล
+Average MSE : 135.6647
+Average RMSE: 11.0211
+Average MAE : 8.276
