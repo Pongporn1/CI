@@ -91,6 +91,13 @@ def denormalize(value, minimum, maximum):
 
 
 def calculate_metrics(actual, predicted):
+    # ข้อมูลจริงและค่าทำนายต้องจับคู่กันได้ครบทุกค่า
+    if len(actual) != len(predicted):
+        raise ValueError("จำนวน Actual และ Predicted ต้องเท่ากัน")
+
+    if len(actual) == 0:
+        raise ValueError("ไม่มีข้อมูลสำหรับคำนวณผล")
+
     squared_error = 0.0
     absolute_error = 0.0
 
