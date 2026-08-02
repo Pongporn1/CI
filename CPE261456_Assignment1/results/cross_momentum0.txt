@@ -1,0 +1,47 @@
+Cross 10-Fold Cross-Validation
+จำนวนข้อมูล: 200
+Class 0: 100 | Class 1: 100
+Hidden layers: [8]
+Learning rate: 0.1
+Momentum: 0.0
+Epochs: 1000
+Weight seed: 42
+Epoch     1 | Training MSE = 0.25583918
+Epoch  1000 | Training MSE = 0.02575770
+Fold  1 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25097276
+Epoch  1000 | Training MSE = 0.02360195
+Fold  2 | Accuracy = 95.00%
+Epoch     1 | Training MSE = 0.25529971
+Epoch  1000 | Training MSE = 0.02196699
+Fold  3 | Accuracy = 90.00%
+Epoch     1 | Training MSE = 0.25609189
+Epoch  1000 | Training MSE = 0.02503894
+Fold  4 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25532267
+Epoch  1000 | Training MSE = 0.02358691
+Fold  5 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25528344
+Epoch  1000 | Training MSE = 0.02225218
+Fold  6 | Accuracy = 95.00%
+Epoch     1 | Training MSE = 0.25366543
+Epoch  1000 | Training MSE = 0.02765751
+Fold  7 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25639864
+Epoch  1000 | Training MSE = 0.02381664
+Fold  8 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25436015
+Epoch  1000 | Training MSE = 0.02677903
+Fold  9 | Accuracy = 100.00%
+Epoch     1 | Training MSE = 0.25506132
+Epoch  1000 | Training MSE = 0.02676320
+Fold 10 | Accuracy = 95.00%
+
+สรุปผล
+Average Accuracy: 97.5 %
+Overall Accuracy: 97.5 %
+
+Confusion Matrix
+              Predicted 0  Predicted 1
+Actual 0               99            1
+Actual 1                4           96
